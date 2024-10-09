@@ -85,7 +85,13 @@ function App() {
                 </div>
               ))}
             </div>
-            <Pagination current={current} total={total} onChange={onChange} />
+            <Pagination
+              current={current}
+              total={total}
+              onChange={onChange}
+              align="center"
+              showSizeChanger={false}
+            />
           </>
         )}
       </div>
